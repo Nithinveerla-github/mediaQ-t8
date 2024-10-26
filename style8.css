@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 399px){
+    h1{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 400px) and ( max-width: 899px){
+    h1{
+        font-size: 28px;
+    }
+}
+@media screen and (min-width: 900px){
+    h1{
+        font-size: 36pxpx;
+    }
+}
